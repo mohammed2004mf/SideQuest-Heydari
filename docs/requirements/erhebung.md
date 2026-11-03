@@ -54,10 +54,28 @@ An fünf aufeinanderfolgenden Tagen notieren die Teilnehmenden abends in 2 Minut
 
 ## Ergebnisse
 
-> **Status: offen.** Die Interviews und die Tagebuchstudie werden von Mohammad mit 2–3 Personen durchgeführt. Die Ergebnisse werden hier eingetragen und als Quelle (Q-04, Q-05) an die betroffenen User Stories geschrieben. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet.
+> **Status: 1 von mindestens 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) steht noch aus.
 
-| Teilnehmer | Datum | Wichtigste Aussagen | Abgeleitete Stories |
-|---|---|---|---|
-| P1 | | | |
-| P2 | | | |
-| P3 | | | |
+### P1 – Interview vom 03.11.2026
+
+- **Person:** studierende Person an der HS Flensburg (anonymisiert)
+- **Form:** persönliches Gespräch an der Hochschule, geführt von Mohammad Heydari
+- **Protokoll:** [Antworten P1](quellen/Q-04-interview-P1.md)
+
+| # | Kernaussage | Abgeleitet / bestätigt |
+|---|---|---|
+| P1-1 | Ziele: Studium organisieren, regelmäßig lernen, Prüfungen bestehen, sportlich aktiv bleiben, Routinen einhalten. | Lebensbereiche Knowledge, Fitness, Discipline; EP-02, EP-05 |
+| P1-2 | Nutzt Handy-Kalender, Notizen und To-do-Listen, vergisst aber das Aktualisieren; wünscht sich eine App, die alles zusammenfasst. | EP-04 Dashboard (US-15), EP-08 Kalender (US-23) |
+| P1-3 | Hat tägliches Lernen aufgegeben, als mehrere Abgaben gleichzeitig kamen; Aufschieben führte zum Motivationsverlust. | Streak-Schutz (US-19), Anpassung der Schwierigkeit (US-25) |
+| P1-4 | Motivierend sind Level, Belohnungen und sichtbarer Fortschritt; wünscht kleine Belohnungen statt nur des großen Ziels. | EP-03 XP und Level (US-11, US-12), Epic Quests mit Etappen (US-08) |
+| P1-5 | Vergleich und Challenges mit Freunden „ziemlich cool“, z. B. Lern-Challenge über eine Woche; aber kein Wettbewerb, bei dem man sich schlecht fühlt. | Gruppen-Challenges (US-28), Rangliste abschaltbar (US-27), Zielkonflikt G-15 ⟂ G-04 |
+| P1-6 | Würde die App bei zu vielen Benachrichtigungen, Dauerdruck oder kostenpflichtigen Kernfunktionen löschen. | Benachrichtigungen abschaltbar (US-31), NFR Benachrichtigungsgrenze, CON-09 keine Kosten |
+| P1-7 | Nutzung vor allem auf dem Smartphone, morgens (Tagesplan) und abends (Fortschritt); beim Lernen auch am Laptop. | NFR responsives Design (Smartphone und Desktop), Dashboard (US-15) |
+
+### P2 – Interview
+
+> **Offen.** Wird nach Durchführung ergänzt.
+
+### Zusammenfassung
+
+Das erste Interview bestätigt die Kernidee (Belohnung kleiner Schritte, sichtbarer Fortschritt) und zwei Risiken aus dem Zielbaum: Druck durch Wettbewerb und durch zu viele Benachrichtigungen. Diese werden durch abschaltbare Ranglisten, Streak-Schutz und einstellbare Benachrichtigungen adressiert.
