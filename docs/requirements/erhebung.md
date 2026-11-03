@@ -54,10 +54,46 @@ An fünf aufeinanderfolgenden Tagen notieren die Teilnehmenden abends in 2 Minut
 
 ## Ergebnisse
 
-> **Status: offen.** Die Interviews und die Tagebuchstudie werden von Mohammad mit 2–3 Personen durchgeführt. Die Ergebnisse werden hier eingetragen und als Quelle (Q-04, Q-05) an die betroffenen User Stories geschrieben. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet.
+> **Status: 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) steht noch aus.
 
-| Teilnehmer | Datum | Wichtigste Aussagen | Abgeleitete Stories |
-|---|---|---|---|
-| P1 | | | |
-| P2 | | | |
-| P3 | | | |
+### P1 – Interview vom 03.11.2026
+
+- **Person:** studierende Person an der HS Flensburg (anonymisiert)
+- **Form:** persönliches Gespräch an der Hochschule, geführt von Mohammad Heydari
+- **Protokoll:** [Antworten P1](quellen/Q-04-interview-P1.md)
+
+| # | Kernaussage | Abgeleitet / bestätigt |
+|---|---|---|
+| P1-1 | Ziele: Studium organisieren, regelmäßig lernen, Prüfungen bestehen, sportlich aktiv bleiben, Routinen einhalten. | Lebensbereiche Knowledge, Fitness, Discipline; EP-02, EP-05 |
+| P1-2 | Nutzt Handy-Kalender, Notizen und To-do-Listen, vergisst aber das Aktualisieren; wünscht sich eine App, die alles zusammenfasst. | EP-04 Dashboard (US-15), EP-08 Kalender (US-23) |
+| P1-3 | Hat tägliches Lernen aufgegeben, als mehrere Abgaben gleichzeitig kamen; Aufschieben führte zum Motivationsverlust. | Streak-Schutz (US-19), Anpassung der Schwierigkeit (US-25) |
+| P1-4 | Motivierend sind Level, Belohnungen und sichtbarer Fortschritt; wünscht kleine Belohnungen statt nur des großen Ziels. | EP-03 XP und Level (US-11, US-12), Epic Quests mit Etappen (US-08) |
+| P1-5 | Vergleich und Challenges mit Freunden „ziemlich cool“, z. B. Lern-Challenge über eine Woche; aber kein Wettbewerb, bei dem man sich schlecht fühlt. | Gruppen-Challenges (US-28), Rangliste abschaltbar (US-27), Zielkonflikt G-15 ⟂ G-04 |
+| P1-6 | Würde die App bei zu vielen Benachrichtigungen, Dauerdruck oder kostenpflichtigen Kernfunktionen löschen. | Benachrichtigungen abschaltbar (US-31), NFR Benachrichtigungsgrenze, CON-09 keine Kosten |
+| P1-7 | Nutzung vor allem auf dem Smartphone, morgens (Tagesplan) und abends (Fortschritt); beim Lernen auch am Laptop. | NFR responsives Design (Smartphone und Desktop), Dashboard (US-15) |
+
+### P2 – Interview vom 03.11.2026
+
+- **Person:** studierende Person an der HS Flensburg mit Schwerpunkt Krafttraining (anonymisiert)
+- **Form:** persönliches Gespräch an der Hochschule, geführt von Mohammad Heydari
+- **Protokoll:** [Antworten P2](quellen/Q-04-interview-P2.md)
+
+| # | Kernaussage | Abgeleitet / bestätigt |
+|---|---|---|
+| P2-1 | Ziele: im Gym besser werden, Muskeln aufbauen, Gewichte steigern; gesünder essen und genug schlafen. | Lebensbereiche Fitness, Discipline; Epic Quests (US-08) |
+| P2-2 | Nutzt eine Fitness-App für Trainings und manchmal eine Ernährungs-App; für andere Ziele nichts. | Abgrenzung: SideQuest ersetzt keine Trainings-App, sondern bündelt Ziele aller Lebensbereiche |
+| P2-3 | Nach zwei bis drei verpassten Trainingstagen fiel der Wiedereinstieg schwer; zu viel selbst gemachter Druck. | Streak-Schutz (US-19), kein Fortschrittsverlust bei Pausen (G-04) |
+| P2-4 | Motivierend: immer ein neues Ziel, direktes Feedback, Verbesserung; wünscht Punkte und Level für erledigte Aufgaben. | EP-03 XP und Level, Belohnungsanimation (US-07) |
+| P2-5 | Challenges mit Freunden gut, z. B. „20 Trainings in einem Monat“; will selbst entscheiden, ob der Fortschritt sichtbar ist. | Gruppen-Challenges (US-28) mit **Laufzeit bis zu einem Monat**; Sichtbarkeit des Profils und der Ranglisten-Teilnahme steuerbar (US-27) |
+| P2-6 | Würde die App bei komplizierter Bedienung, langem Eintragen oder zu vielen Benachrichtigungen nicht nutzen. | NFR Bedienbarkeit (Quest in wenigen Schritten abschließen), Benachrichtigungen abschaltbar (US-31) |
+| P2-7 | Nutzung auf dem Smartphone: morgens Ziele ansehen, vor dem Gym Challenge prüfen, abends Erledigtes eintragen; im Gym schnell und einfach. | NFR responsives Design und kurze Bedienwege, Dashboard (US-15) |
+
+### Zusammenfassung
+
+Beide Interviews bestätigen die Kernidee: kleine Schritte belohnen, Fortschritt sichtbar machen, Level und Punkte als Motivation. Beide nennen dieselben Risiken: Druck (durch Wettbewerb, durch Dauerpflichten, nach verpassten Tagen) und zu viele Benachrichtigungen. Daraus folgen der Streak-Schutz, abschaltbare Ranglisten und Benachrichtigungen sowie eine schnelle Bedienung auf dem Smartphone als wichtige Qualitätsanforderung.
+
+**Neue bzw. geänderte Anforderungen aus der Erhebung:**
+- Gruppen-Challenges sollen bis zu einem Monat laufen können (P2-5).
+- Spieler sollen steuern können, ob ihr Profil für Freunde sichtbar ist (P2-5).
+- Eine Quest soll auf dem Smartphone mit wenigen Schritten abgeschlossen werden können (P2-6, P2-7, P1-7).
+- Benachrichtigungen sollen begrenzt und abschaltbar sein (P1-6, P2-6).
