@@ -1,6 +1,6 @@
 # Detailentwurf (LZ3)
 
-Aufbau nach Kapitel 4 des Kursbuchs. Diagramme mit PlantUML in [`diagramme/`](diagramme/).
+Aufbau nach Kapitel 4 des Kursbuchs. Diagramme werden mit Mermaid direkt in den Dokumenten erstellt.
 
 | # | Dokument | Inhalt (Kursnotation) | IDs |
 |---|---|---|---|
@@ -18,6 +18,6 @@ Aufbau nach Kapitel 4 des Kursbuchs. Diagramme mit PlantUML in [`diagramme/`](di
 | Intent | Welches Problem löst das Muster hier? |
 | Motivation | Warum wäre es ohne das Muster schlechter (welches Prinzip würde verletzt)? |
 | Applicability | Wann ist das Muster passend? |
-| Structure | PlantUML-Diagramm |
+| Structure | Mermaid-Klassendiagramm |
 | Participants | Rollen und konkrete Klassen (CLS-xx) |
 | Consequences | + Vorteile / − Nachteile (inkl. KISS-Abwägung) |

@@ -11,7 +11,7 @@ Aufbau nach Kapitel 3 des Kursbuchs. Vorgehen: Qualitätsszenarien → Taktiken 
 | 5 | `adr/` | Mindestens drei Architecture Decision Records nach [`adr/ADR-000-vorlage.md`](adr/ADR-000-vorlage.md) | `ADR` |
 | 6 | `nfr-mapping.md` | Welche Entscheidung (ADR) unterstützt welche Qualitätsanforderung (NFR/QS)? Trade-offs, Sensitivitätspunkte, Risiken | – |
 
-Diagramme liegen in [`diagramme/`](diagramme/) als `.puml` und `.svg`.
+Diagramme werden mit Mermaid direkt in den Dokumenten erstellt (siehe [Konventionen](../konventionen.md#3-diagramme)).
 
 ## Vorlage Qualitätsszenario
 

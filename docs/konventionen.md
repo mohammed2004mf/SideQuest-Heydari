@@ -44,11 +44,11 @@ Ziel (G) → Epic (EP) → User Story (US, mit AC) → detaillierte Anforderung 
 
 ## 3. Diagramme
 
-- Alle Diagramme werden mit **PlantUML** als Text erstellt (`.puml`) und zusätzlich als **SVG** exportiert. So sind Änderungen im Git-Diff sichtbar und GitHub zeigt das Bild direkt an.
-- Ablage: `docs/<bereich>/diagramme/<ID>-<name>.puml` und `.svg` mit gleichem Namen.
-- Einbinden im Markdown: `![UC-Diagramm](diagramme/UC-uebersicht.svg)`.
-- Rendern: VS-Code-Erweiterung „PlantUML“ (Export als SVG) oder `plantuml -tsvg docs/**/diagramme/*.puml`.
-- Notation wie in den Folien: Use Cases mit `«include»`/`«extend»` und Akteur-Vererbung; Komponenten mit bereitgestellten (Lollipop) und benötigten (Socket) Schnittstellen; Klassendiagramme mit Sichtbarkeiten, Multiplizitäten, Aggregation/Komposition.
+- Alle Diagramme werden mit **Mermaid** direkt im Markdown erstellt (Codeblock ` ```mermaid `). GitHub zeigt sie ohne Zusatzwerkzeug als Grafik an, und weil sie Text sind, sind Änderungen im Git-Diff sichtbar (wichtig für die Änderungsanforderung).
+- Jedes Diagramm steht in dem Dokument, zu dem es gehört, mit seiner ID als Überschrift (z. B. `### ACT-01 Quest abschließen`).
+- Lokale Vorschau: VS-Code-Erweiterung „Markdown Preview Mermaid Support“ oder [mermaid.live](https://mermaid.live).
+- Notation wie in den Folien: Use Cases mit Akteur-Vererbung, `«include»` und `«extend»`; Aktivitätsdiagramme mit Start, Aktion, Entscheidung, Fork/Join, Objektknoten und Swimlanes; Klassendiagramme (`classDiagram`) mit Sichtbarkeiten, Multiplizitäten, Aggregation/Komposition; Sequenzdiagramme (`sequenceDiagram`) mit `alt`, `loop`, `break`; ER-Diagramme (`erDiagram`).
+- Wo Mermaid eine UML-Notation nicht direkt kennt (Use-Case-Diagramm, Komponenten mit Lollipop/Socket), wird sie mit `flowchart` nachgebildet und unter dem Diagramm kurz erklärt.
 
 ## 4. Git-Workflow
 
