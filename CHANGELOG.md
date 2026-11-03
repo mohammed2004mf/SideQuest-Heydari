@@ -9,6 +9,9 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 - Zielbaum (G-01 bis G-16) mit Zielkonflikten, 14 Epics, 32 User Stories mit Akzeptanzkriterien
 - 67 detaillierte Anforderungen nach Satzschablone mit Abhängigkeiten
 - Use-Case-Diagramm, 5 Use-Case-Vorlagen, Aktivitätsdiagramme ACT-01 und ACT-02
+- 19 nicht-funktionale Anforderungen nach ISO/IEC 25010 mit Messwerten
+- Priorisierung: Epics per 100-Dollar-Methode, alle Anforderungen per MoSCoW, Release-Plan
+- Traceability: Priorität je Anforderung, NFR-Tabelle und NFR↔REQ-Abhängigkeiten
 
 ### Geändert
 - Diagramme mit Mermaid statt PlantUML (direkte Anzeige auf GitHub)
