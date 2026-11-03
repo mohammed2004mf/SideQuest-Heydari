@@ -103,7 +103,8 @@ Funktionale Anforderungen nach der Satzschablone von Pohl und Rupp (Kapitel 2): 
 |---|---|---|---|
 | REQ-51 | US-26 | Das System muss einem Spieler die Möglichkeit bieten, einem anderen Spieler über dessen Benutzernamen eine Freundschaftsanfrage zu senden. | REQ-01 |
 | REQ-52 | US-26 | Das System muss dem Empfänger die Möglichkeit bieten, eine Freundschaftsanfrage anzunehmen oder abzulehnen, und beiden Spielern die Möglichkeit bieten, eine Freundschaft zu beenden. | REQ-51 |
-| REQ-53 | US-26 | Das System muss einem Spieler das Profil eines Freundes mit Avatar, Titel, Level, Daily Streak und freigeschalteten Achievements anzeigen. | REQ-52 |
+| REQ-53 | US-26 | Das System muss einem Spieler das Profil eines Freundes mit Avatar, Titel, Level, Daily Streak und freigeschalteten Achievements anzeigen, sofern der Freund sein Profil nicht verborgen hat. | REQ-52, REQ-67 |
+| REQ-67 | US-26 | Das System muss einem Spieler die Möglichkeit bieten, sein Profil vor Freunden zu verbergen; dann zeigt das System Freunden nur Benutzername und Avatar an (Quelle: Interview P2-5). | REQ-52 |
 
 ## EP-11 Gruppen-Challenges und Rangliste
 
@@ -111,7 +112,7 @@ Funktionale Anforderungen nach der Satzschablone von Pohl und Rupp (Kapitel 2): 
 |---|---|---|---|
 | REQ-54 | US-27 | Das System muss einem Spieler eine Rangliste aus ihm selbst und seinen Freunden anzeigen, sortiert nach den XP der aktuellen Woche; die Wertung beginnt jeden Montag neu. | REQ-52, REQ-32 |
 | REQ-55 | US-27 | Das System muss einem Spieler die Möglichkeit bieten, seine Teilnahme an Ranglisten abzuschalten; danach darf das System ihn in keiner Rangliste anderer Spieler anzeigen. | REQ-54 |
-| REQ-56 | US-28 | Das System muss einem Spieler die Möglichkeit bieten, eine Gruppen-Challenge mit Titel, Ziel (Anzahl erledigter Quests, optional eingeschränkt auf einen Lebensbereich), Laufzeit von 1 bis 14 Tagen und 1 bis 9 eingeladenen Freunden zu erstellen. | REQ-52 |
+| REQ-56 | US-28 | Das System muss einem Spieler die Möglichkeit bieten, eine Gruppen-Challenge mit Titel, Ziel (Anzahl erledigter Quests, optional eingeschränkt auf einen Lebensbereich), Laufzeit von 1 bis 31 Tagen und 1 bis 9 eingeladenen Freunden zu erstellen (Quelle: Interview P2-5). | REQ-52 |
 | REQ-57 | US-28 | Das System muss den gemeinsamen Fortschritt einer Gruppen-Challenge als Summe der während der Laufzeit erledigten passenden Quests aller Teilnehmer anzeigen. | REQ-56 |
 | REQ-58 | US-28 | Falls das Ziel einer Gruppen-Challenge innerhalb ihrer Laufzeit erreicht wird, muss das System jedem Teilnehmer 100 XP gutschreiben. | REQ-57, REQ-25 |
 

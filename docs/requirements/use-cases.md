@@ -76,7 +76,7 @@ flowchart LR
 | UC-07 | Achievement freischalten | Spieler | US-21 | REQ-42 – REQ-44 |
 | UC-08 | Fortschritt ansehen | Spieler | US-13 – US-15, US-17, US-22, US-23 | REQ-31 – REQ-34, REQ-37, REQ-45, REQ-46 |
 | UC-09 | Quest-Vorschläge anfordern | Spieler, Quest-Master | US-10, US-24, US-25 | REQ-24, REQ-47 – REQ-50 |
-| UC-10 | Freund hinzufügen | Spieler | US-26 | REQ-51 – REQ-53 |
+| UC-10 | Freund hinzufügen | Spieler | US-26 | REQ-51 – REQ-53, REQ-67 |
 | UC-11 | Gruppen-Challenge erstellen | Gruppenmitglied | US-28 | REQ-56 – REQ-58 |
 | UC-12 | Rangliste ansehen | Spieler | US-27 | REQ-54, REQ-55 |
 | UC-13 | Item kaufen | Spieler | US-29 | REQ-60 – REQ-62 |
@@ -152,7 +152,7 @@ flowchart LR
 | Vorbedingungen | Spieler ist angemeldet (include UC-02) und hat mindestens einen Freund. |
 | Nachbedingungen | Challenge ist angelegt; eingeladene Freunde sind benachrichtigt; nach Ablauf ist sie erfüllt oder nicht erfüllt. |
 | Hauptszenario | 1. Spieler gibt Titel, Ziel (Anzahl Quests, optional Lebensbereich) und Laufzeit ein. 2. Spieler wählt 1 bis 9 Freunde aus. 3. System legt die Challenge an und benachrichtigt die Freunde. 4. Teilnehmer erledigen Quests; System zählt passende Quests zum gemeinsamen Fortschritt. 5. Ziel wird innerhalb der Laufzeit erreicht. 6. System schreibt jedem Teilnehmer 100 XP gut. |
-| Alternativen | 1a. Laufzeit außerhalb 1 bis 14 Tage: System zeigt einen Hinweis, zurück zu Schritt 1. 5a. Laufzeit endet ohne Zielerreichung: System markiert die Challenge als nicht erfüllt, keine XP. |
+| Alternativen | 1a. Laufzeit außerhalb 1 bis 31 Tage: System zeigt einen Hinweis, zurück zu Schritt 1. 5a. Laufzeit endet ohne Zielerreichung: System markiert die Challenge als nicht erfüllt, keine XP. |
 | Priorität / Häufigkeit | niedrig / wenige Male pro Monat |
 | Bezug | US-28, REQ-56 – REQ-58 |
 

@@ -82,7 +82,7 @@ Vorlage: **Als** ROLLE **möchte ich** FUNKTION, **um** NUTZEN **zu erreichen.**
 **US-18** Als Spieler möchte ich meine Daily und Weekly Streak sehen, um motiviert zu bleiben, regelmäßig aktiv zu sein.
 - AC-18.1: Gegeben ich habe an den letzten 4 Tagen jeweils mindestens eine Quest abgeschlossen, dann zeigt die Daily Streak 4.
 
-**US-19** Als Spieler möchte ich, dass ein einzelner verpasster Tag meine Streak nicht sofort beendet, um nicht durch einen Ausrutscher allen Fortschritt zu verlieren.
+**US-19** Als Spieler möchte ich, dass ein einzelner verpasster Tag meine Streak nicht sofort beendet, um nicht durch einen Ausrutscher allen Fortschritt zu verlieren. _(Quelle: Interviews P1-3, P2-3)_
 - AC-19.1: Gegeben eine Daily Streak von 10 und in dieser Woche noch kein verbrauchter Streak-Schutz, wenn ich einen Tag keine Quest abschließe, dann bleibt die Streak bei 10.
 - AC-19.2: Gegeben der Streak-Schutz dieser Woche ist verbraucht, wenn ich erneut einen Tag aussetze, dann beginnt die Streak wieder bei 0.
 
@@ -117,14 +117,15 @@ Vorlage: **Als** ROLLE **möchte ich** FUNKTION, **um** NUTZEN **zu erreichen.**
 **US-26** Als Spieler möchte ich Freunde über ihren Benutzernamen hinzufügen und ihre Profile sehen, um mich gegenseitig zu motivieren.
 - AC-26.1: Gegeben ich sende „anna“ eine Freundschaftsanfrage und sie nimmt an, dann steht sie in meiner Freundesliste und ich in ihrer.
 - AC-26.2: Gegeben „anna“ ist meine Freundin, dann sehe ich ihr Profil mit Level, Titel, Daily Streak und Achievements.
+- AC-26.3: Gegeben ich habe mein Profil verborgen, dann sehen meine Freunde nur meinen Benutzernamen und Avatar.
 
 ## EP-11 Gruppen-Challenges und Rangliste
 
-**US-27** Als Spieler möchte ich eine wöchentliche Rangliste unter meinen Freunden sehen und meine Teilnahme abschalten können, um mich zu messen, ohne mich unter Druck gesetzt zu fühlen.
+**US-27** Als Spieler möchte ich eine wöchentliche Rangliste unter meinen Freunden sehen und meine Teilnahme abschalten können, um mich zu messen, ohne mich unter Druck gesetzt zu fühlen. _(Quelle: Interviews P1-5, P2-5)_
 - AC-27.1: Gegeben ich habe drei Freunde, dann zeigt die Rangliste vier Einträge, sortiert nach XP der aktuellen Woche.
 - AC-27.2: Gegeben ich schalte die Ranglisten-Teilnahme ab, dann erscheine ich in keiner Rangliste meiner Freunde.
 
-**US-28** Als Spieler möchte ich mit Freunden eine Gruppen-Challenge erstellen und gemeinsam erfüllen, um zusammen Ziele zu erreichen.
+**US-28** Als Spieler möchte ich mit Freunden eine Gruppen-Challenge erstellen und gemeinsam erfüllen, um zusammen Ziele zu erreichen. _(Quelle: Interviews P1-5, P2-5)_
 - AC-28.1: Gegeben eine Challenge „gemeinsam 20 Quests in 7 Tagen“ mit 3 Teilnehmern, wenn zusammen 20 Quests erledigt sind, dann ist sie erfüllt und jeder Teilnehmer erhält 100 XP.
 
 ## EP-12 Coins und Reward Shop
@@ -138,7 +139,7 @@ Vorlage: **Als** ROLLE **möchte ich** FUNKTION, **um** NUTZEN **zu erreichen.**
 **US-30** Als Spieler möchte ich über neue Daily Quests, Level-Ups, Achievements, Freundschaftsanfragen und eine gefährdete Streak benachrichtigt werden, um nichts zu verpassen.
 - AC-30.1: Gegeben ich habe bis 20:00 Uhr heute keine Quest abgeschlossen und eine Daily Streak größer 0, dann erhalte ich eine Benachrichtigung „Streak in Gefahr“.
 
-**US-31** Als Spieler möchte ich Benachrichtigungen je Art ein- und ausschalten, um nicht gestört zu werden.
+**US-31** Als Spieler möchte ich Benachrichtigungen je Art ein- und ausschalten, um nicht gestört zu werden. _(Quelle: Interviews P1-6, P2-6)_
 - AC-31.1: Gegeben ich schalte „Streak in Gefahr“ ab, dann erhalte ich diese Benachrichtigung nicht mehr.
 
 ## EP-14 Administration
