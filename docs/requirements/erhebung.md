@@ -54,7 +54,7 @@ An fünf aufeinanderfolgenden Tagen notieren die Teilnehmenden abends in 2 Minut
 
 ## Ergebnisse
 
-> **Status: 1 von mindestens 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) steht noch aus.
+> **Status: 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) steht noch aus.
 
 ### P1 – Interview vom 03.11.2026
 
@@ -72,10 +72,28 @@ An fünf aufeinanderfolgenden Tagen notieren die Teilnehmenden abends in 2 Minut
 | P1-6 | Würde die App bei zu vielen Benachrichtigungen, Dauerdruck oder kostenpflichtigen Kernfunktionen löschen. | Benachrichtigungen abschaltbar (US-31), NFR Benachrichtigungsgrenze, CON-09 keine Kosten |
 | P1-7 | Nutzung vor allem auf dem Smartphone, morgens (Tagesplan) und abends (Fortschritt); beim Lernen auch am Laptop. | NFR responsives Design (Smartphone und Desktop), Dashboard (US-15) |
 
-### P2 – Interview
+### P2 – Interview vom 03.11.2026
 
-> **Offen.** Wird nach Durchführung ergänzt.
+- **Person:** studierende Person an der HS Flensburg mit Schwerpunkt Krafttraining (anonymisiert)
+- **Form:** persönliches Gespräch an der Hochschule, geführt von Mohammad Heydari
+- **Protokoll:** [Antworten P2](quellen/Q-04-interview-P2.md)
+
+| # | Kernaussage | Abgeleitet / bestätigt |
+|---|---|---|
+| P2-1 | Ziele: im Gym besser werden, Muskeln aufbauen, Gewichte steigern; gesünder essen und genug schlafen. | Lebensbereiche Fitness, Discipline; Epic Quests (US-08) |
+| P2-2 | Nutzt eine Fitness-App für Trainings und manchmal eine Ernährungs-App; für andere Ziele nichts. | Abgrenzung: SideQuest ersetzt keine Trainings-App, sondern bündelt Ziele aller Lebensbereiche |
+| P2-3 | Nach zwei bis drei verpassten Trainingstagen fiel der Wiedereinstieg schwer; zu viel selbst gemachter Druck. | Streak-Schutz (US-19), kein Fortschrittsverlust bei Pausen (G-04) |
+| P2-4 | Motivierend: immer ein neues Ziel, direktes Feedback, Verbesserung; wünscht Punkte und Level für erledigte Aufgaben. | EP-03 XP und Level, Belohnungsanimation (US-07) |
+| P2-5 | Challenges mit Freunden gut, z. B. „20 Trainings in einem Monat“; will selbst entscheiden, ob der Fortschritt sichtbar ist. | Gruppen-Challenges (US-28) mit **Laufzeit bis zu einem Monat**; Sichtbarkeit des Profils und der Ranglisten-Teilnahme steuerbar (US-27) |
+| P2-6 | Würde die App bei komplizierter Bedienung, langem Eintragen oder zu vielen Benachrichtigungen nicht nutzen. | NFR Bedienbarkeit (Quest in wenigen Schritten abschließen), Benachrichtigungen abschaltbar (US-31) |
+| P2-7 | Nutzung auf dem Smartphone: morgens Ziele ansehen, vor dem Gym Challenge prüfen, abends Erledigtes eintragen; im Gym schnell und einfach. | NFR responsives Design und kurze Bedienwege, Dashboard (US-15) |
 
 ### Zusammenfassung
 
-Das erste Interview bestätigt die Kernidee (Belohnung kleiner Schritte, sichtbarer Fortschritt) und zwei Risiken aus dem Zielbaum: Druck durch Wettbewerb und durch zu viele Benachrichtigungen. Diese werden durch abschaltbare Ranglisten, Streak-Schutz und einstellbare Benachrichtigungen adressiert.
+Beide Interviews bestätigen die Kernidee: kleine Schritte belohnen, Fortschritt sichtbar machen, Level und Punkte als Motivation. Beide nennen dieselben Risiken: Druck (durch Wettbewerb, durch Dauerpflichten, nach verpassten Tagen) und zu viele Benachrichtigungen. Daraus folgen der Streak-Schutz, abschaltbare Ranglisten und Benachrichtigungen sowie eine schnelle Bedienung auf dem Smartphone als wichtige Qualitätsanforderung.
+
+**Neue bzw. geänderte Anforderungen aus der Erhebung:**
+- Gruppen-Challenges sollen bis zu einem Monat laufen können (P2-5).
+- Spieler sollen steuern können, ob ihr Profil für Freunde sichtbar ist (P2-5).
+- Eine Quest soll auf dem Smartphone mit wenigen Schritten abgeschlossen werden können (P2-6, P2-7, P1-7).
+- Benachrichtigungen sollen begrenzt und abschaltbar sein (P1-6, P2-6).
