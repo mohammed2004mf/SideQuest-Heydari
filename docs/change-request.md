@@ -2,16 +2,33 @@
 
 _Die Änderungsanforderung wird am 13.11.2026 ausgegeben._
 
-## Änderung (CR-01)
+## CR-01: <Titel>
 
-_Beschreibung folgt._
+- **Eingang:** 13.11.2026
+- **Quelle / Kontextfacette:** <Objekt / Nutzung / IT-System / Entwicklung>
+- **Beschreibung:** …
+- **Issue:** #…
 
 ## Impact-Analyse
 
-| Artefakt | ID | Betroffen? | Änderung | Issue/PR |
+Ausgehend von der Traceability-Matrix werden alle betroffenen Artefakte ermittelt.
+
+| Artefakt | Betroffene IDs | Art der Änderung (neu / geändert / gestrichen) | Aufwand | Issue / PR |
 |---|---|---|---|---|
-| Anforderungen | | | | |
-| Architektur | | | | |
-| Entwurf | | | | |
+| Ziele / Epics / Stories | | | | |
+| Detaillierte Anforderungen / NFR | | | | |
+| Use Cases | | | | |
+| Architektur (QS, COMP, ADR) | | | | |
+| Entwurf (CLS, SEQ, ENT) | | | | |
 | Code | | | | |
-| Tests | | | | |
+| Tests (TC) | | | | |
+
+## Umsetzung und Nachweis
+
+| Schritt | Commit / PR | Ergebnis |
+|---|---|---|
+| Anforderungen angepasst | | |
+| Architektur / Entwurf angepasst | | |
+| Code umgesetzt | | |
+| Tests angepasst und grün | | |
+| Traceability-Matrix aktualisiert | | |

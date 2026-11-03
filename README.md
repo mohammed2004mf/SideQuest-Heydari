@@ -30,6 +30,7 @@ docs/
   architecture/       Architekturstil, Komponenten, ADRs
   design/             Klassen-, Sequenzdiagramme, Datenmodell
   testing/            Testkonzept, Akzeptanztests, Testbericht
+  konventionen.md     ID-Schema, Diagramme, Git-Workflow
   change-request.md   Impact-Analyse der Änderungsanforderung
   traceability.md     Traceability-Matrix
   reflexion.md        Reflexion
@@ -43,4 +44,5 @@ tests/                Automatisierte Tests
 - Jede Aufgabe ist ein Issue, gearbeitet wird in Feature-Branches (`feature/…`, `docs/…`, `fix/…`).
 - Pull Requests referenzieren ihr Issue (z. B. `Closes #12`).
 - Je Meilenstein gibt es ein Release-Tag: v0.1, v0.2, v0.3, v0.9, v1.0.
-- Alle Artefakte tragen eindeutige IDs (z. B. `REQ-03`, `ADR-02`, `TC-11`).
+- Alle Artefakte tragen eindeutige IDs (z. B. `REQ-03`, `ADR-002`, `TC-11`), siehe [docs/konventionen.md](docs/konventionen.md).
+- Diagramme werden mit PlantUML erstellt und als SVG eingebunden.
