@@ -8,3 +8,4 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 ### Hinzugefügt
 - Repository-Struktur gemäß Aufgabenstellung (docs/, src/, tests/)
 - Platzhalter für alle Artefakte, Issue-Vorlagen
+- Konventionen (ID-Schema, PlantUML, Git-Workflow) und Vorlagen nach den Notationen des Kurses

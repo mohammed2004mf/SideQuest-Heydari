@@ -1,8 +1,23 @@
 # Detailentwurf (LZ3)
 
-| Dokument | Inhalt | ID-Schema |
-|---|---|---|
-| `klassendiagramm.md` | Klassendiagramm der zentralen Klassen/Module | `CLS-xx` |
-| `sequenzdiagramme.md` | Sequenz-/Aktivitätsdiagramme für mind. 2 zentrale Use Cases | `SEQ-xx` |
-| `datenmodell.md` | ER-Diagramm bzw. Schema | `ENT-xx` |
-| `entwurfsprinzipien.md` | Angewandte Prinzipien und Entwurfsmuster | – |
+Aufbau nach Kapitel 4 des Kursbuchs. Diagramme mit PlantUML in [`diagramme/`](diagramme/).
+
+| # | Dokument | Inhalt (Kursnotation) | IDs |
+|---|---|---|---|
+| 1 | `klassendiagramm.md` | UML-Klassendiagramm der zentralen Klassen/Module: Attribute und Operationen mit Typen und Sichtbarkeit (`+ - #`), Multiplizitäten, Assoziation, Aggregation, Komposition, Generalisierung, ggf. Assoziationsklassen; bewusste Modellierungsentscheidungen | `CLS` |
+| 2 | `sequenzdiagramme.md` | Sequenzdiagramme (oder Aktivitätsdiagramme) für mindestens zwei zentrale Use Cases, mit Lebenslinien, synchronen/asynchronen Nachrichten und kombinierten Fragmenten (`alt`, `loop`, `break`) | `SEQ` |
+| 3 | `datenmodell.md` | ER-Diagramm bzw. Datenbankschema | `ENT` |
+| 4 | `entwurfsprinzipien.md` | Angewandte Prinzipien mit Beleg im Entwurf: SOLID, DRY, KISS, Information Hiding, Separation of Concerns, lose Kopplung, hohe Kohäsion, Komposition vor Vererbung; MVC-Zuordnung | – |
+| 5 | `entwurfsmuster.md` | Eingesetzte Entwurfsmuster nach der Vorlage unten | – |
+
+## Vorlage Entwurfsmuster
+
+| Feld | Inhalt |
+|---|---|
+| Pattern Name | z. B. Strategy |
+| Intent | Welches Problem löst das Muster hier? |
+| Motivation | Warum wäre es ohne das Muster schlechter (welches Prinzip würde verletzt)? |
+| Applicability | Wann ist das Muster passend? |
+| Structure | PlantUML-Diagramm |
+| Participants | Rollen und konkrete Klassen (CLS-xx) |
+| Consequences | + Vorteile / − Nachteile (inkl. KISS-Abwägung) |
