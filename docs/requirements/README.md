@@ -7,7 +7,7 @@ Aufbau nach der Struktur eines Anforderungsdokuments aus Kapitel 2 des Kursbuchs
 | 1 | `vision.md` | Produktvision: Problem, Zielgruppe, Nutzen (max. ½ Seite); Zweck und Umfang | – |
 | 2 | `stakeholder.md` | Stakeholder mit Interessen, Nutzerrollen, Kontextfacetten (Objekt, Nutzung, IT-System, Entwicklung) mit Anforderungsquellen | `STK`, `ROLE` |
 | 3 | `erhebung.md` | Gewählte Erhebungstechniken (Interview, Beobachtung, Workshop) mit Begründung, Leitfaden, Ergebnisse | – |
-| 4 | `ziele.md` | Zielbaum mit UND-/ODER-Zerlegung und markierten Zielkonflikten (PlantUML) | `G` |
+| 4 | `ziele.md` | Zielbaum mit UND-/ODER-Zerlegung und markierten Zielkonflikten (Mermaid) | `G` |
 | 5 | `epics.md` | Epics („Als … möchte ich …“), knapp und mit Bezug zu Zielen | `EP` |
 | 6 | `user-stories.md` | User Stories nach „Als ROLLE möchte ich FUNKTION, um NUTZEN zu erreichen“ mit Akzeptanzkriterien | `US`, `AC` |
 | 7 | `anforderungen.md` | Detaillierte Anforderungen nach Satzschablone (Pohl/Rupp) mit Modalverb, Prozesswort, Objekt, ggf. Bedingung; Abhängigkeiten zwischen Anforderungen | `REQ` |
@@ -17,7 +17,7 @@ Aufbau nach der Struktur eines Anforderungsdokuments aus Kapitel 2 des Kursbuchs
 | 11 | `priorisierung.md` | Epics per 100-Dollar-Methode, detaillierte Anforderungen per MoSCoW-Gruppierung, je mit Begründung (Rationale) | – |
 | 12 | `glossar.md` | Fachbegriffe (Quest, XP, Level, Streak …) eindeutig definiert, um Mehrdeutigkeiten zu vermeiden | – |
 
-Diagramme liegen in [`diagramme/`](diagramme/) als `.puml` und `.svg`.
+Diagramme werden mit Mermaid direkt in den Dokumenten erstellt (siehe [Konventionen](../konventionen.md#3-diagramme)).
 
 ## Qualitätsregeln aus der Vorlesung
 

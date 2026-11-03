@@ -45,4 +45,4 @@ tests/                Automatisierte Tests
 - Pull Requests referenzieren ihr Issue (z. B. `Closes #12`).
 - Je Meilenstein gibt es ein Release-Tag: v0.1, v0.2, v0.3, v0.9, v1.0.
 - Alle Artefakte tragen eindeutige IDs (z. B. `REQ-03`, `ADR-002`, `TC-11`), siehe [docs/konventionen.md](docs/konventionen.md).
-- Diagramme werden mit PlantUML erstellt und als SVG eingebunden.
+- Diagramme werden mit Mermaid direkt im Markdown erstellt und von GitHub angezeigt.
