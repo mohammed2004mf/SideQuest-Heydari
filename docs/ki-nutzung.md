@@ -6,3 +6,5 @@ Gemäß Aufgabenstellung wird hier dokumentiert, wofür generative KI genutzt wu
 |---|---|---|---|---|
 | 2026-11-03 | Claude | Anlegen der Repository-Struktur, README, CHANGELOG und Platzhalter-Dokumente | „Lege die Ordnerstruktur aus der Aufgabenstellung im Repo an“ | Struktur mit Abschnitt 3.1 der Aufgabenstellung abgeglichen |
 | 2026-11-03 | Claude | Analyse von Folien und Musterlösungen; Vorlagen und Konventionen in `docs/` daran angepasst | „Analysiere die Kursdateien und setze die Dokumentation so um, wie Kai es verlangt“ | Vorlagen mit Folien (Kap. 2–4) und Musterlösungen abgeglichen |
+| 2026-11-03 | ChatGPT | Ausformulierung der Produktidee SideQuest (Ideenpapier Q-01) | „Erstelle einen ausführlichen Projektprompt für eine gamifizierte Lebens-App“ (sinngemäß) | Idee als Quelle Q-01 zusammengefasst; Umfang und Prioritäten selbst festgelegt |
+| 2026-11-03 | Claude | Entwurf von Vision, Stakeholdern, Kontextfacetten, Erhebungsplan mit Interviewleitfaden, Randbedingungen, Annahmen und Glossar | „Fang mit v0.1 an“ | Inhalte gelesen und gegen Ideenpapier und Folien Kapitel 2 geprüft; Interviews führe ich selbst durch |
