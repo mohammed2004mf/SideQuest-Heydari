@@ -9,6 +9,7 @@ Aufbau nach Kapitel 4 des Kursbuchs. Diagramme werden mit Mermaid direkt in den 
 | 3 | `datenmodell.md` | ER-Diagramm bzw. Datenbankschema | `ENT` |
 | 4 | `entwurfsprinzipien.md` | Angewandte Prinzipien mit Beleg im Entwurf: SOLID, DRY, KISS, Information Hiding, Separation of Concerns, lose Kopplung, hohe Kohäsion, Komposition vor Vererbung; MVC-Zuordnung | – |
 | 5 | `entwurfsmuster.md` | Eingesetzte Entwurfsmuster nach der Vorlage unten | – |
+| 6 | [`coding-standard.md`](coding-standard.md) | Coding-Standard mit Werkzeugen (ESLint, Prettier, TypeScript strict) und Regeln | `CS` |
 
 ## Vorlage Entwurfsmuster
 

@@ -147,3 +147,11 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# SideQuest: lokale SQLite-Datenbank
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+next-env.d.ts
