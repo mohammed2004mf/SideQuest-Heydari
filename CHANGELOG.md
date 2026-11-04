@@ -5,6 +5,9 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 
 ## [Unreleased]
 
+### Geändert
+- Erhebung: Tagebuchstudie (Q-05) nicht durchgeführt, durch die Interviews P1 und P2 ersetzt; Einschränkung dokumentiert
+
 ## [0.1] – 2026-11-03
 
 ### Hinzugefügt
