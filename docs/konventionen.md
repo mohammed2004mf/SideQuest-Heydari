@@ -25,6 +25,7 @@ Jedes Artefakt bekommt eine eindeutige, nie wiederverwendete ID. Gelöschte Elem
 | `SEQ-xx` / `ACT-xx` | Sequenz- / Aktivitätsdiagramm | `docs/design/`, `docs/requirements/` | SEQ-01 |
 | `ENT-xx` | Entität im Datenmodell | `docs/design/datenmodell.md` | ENT-02 |
 | `TC-xx` | Testfall | `docs/testing/` | TC-11 |
+| `CS-xx` | Coding-Standard-Regel | `docs/design/coding-standard.md` | CS-04 |
 | `CR-xx` | Änderungsanforderung | `docs/change-request.md` | CR-01 |
 
 ## 2. Verfeinerungskette

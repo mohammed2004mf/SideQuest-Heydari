@@ -1,6 +1,6 @@
 # Traceability-Matrix
 
-Stand v0.1: Ziele, Epics, Stories, Anforderungen, Prioritäten ([`requirements/priorisierung.md`](requirements/priorisierung.md)) und Use Cases sind verknüpft; Architektur, Entwurf, Code und Tests folgen. Verfolgt jede Anforderung von ihrer Herkunft (Pre-Traceability) bis zu Architektur, Code und Test (Post-Traceability). IDs siehe [`konventionen.md`](konventionen.md).
+Stand v0.1: Ziele, Epics, Stories, Anforderungen, Prioritäten ([`requirements/priorisierung.md`](requirements/priorisierung.md)) und Use Cases sind verknüpft; REQ-11, REQ-28 und REQ-30 sind im Projektgerüst umgesetzt und getestet. Architektur und Entwurf folgen in v0.2. Verfolgt jede Anforderung von ihrer Herkunft (Pre-Traceability) bis zu Architektur, Code und Test (Post-Traceability). IDs siehe [`konventionen.md`](konventionen.md).
 
 ## Funktionale Anforderungen
 
@@ -16,7 +16,7 @@ Stand v0.1: Ziele, Epics, Stories, Anforderungen, Prioritäten ([`requirements/p
 | G-01, G-06 | EP-01 | US-04 | REQ-08 | Should | UC-16 | – | – | – | – | spezifiziert |
 | G-01, G-06 | EP-01 | US-04 | REQ-09 | Should | UC-16 | – | – | – | – | spezifiziert |
 | G-06, G-11, G-13 | EP-02 | US-05 | REQ-10 | Must | UC-04 | – | – | – | – | spezifiziert |
-| G-06, G-11, G-13 | EP-02 | US-05 | REQ-11 | Must | UC-04 | – | – | – | – | spezifiziert |
+| G-06, G-11, G-13 | EP-02 | US-05 | REQ-11 | Must | UC-04 | – | – | `src/lib/domain/xp.ts` | TC-01 | umgesetzt |
 | G-06, G-11, G-13 | EP-02 | US-05 | REQ-12 | Must | UC-04 | – | – | – | – | spezifiziert |
 | G-06, G-11, G-13 | EP-02 | US-06 | REQ-13 | Must | – | – | – | – | – | spezifiziert |
 | G-06, G-11, G-13 | EP-02 | US-06 | REQ-14 | Must | – | – | – | – | – | spezifiziert |
@@ -33,9 +33,9 @@ Stand v0.1: Ziele, Epics, Stories, Anforderungen, Prioritäten ([`requirements/p
 | G-02, G-07, G-16 | EP-03 | US-11 | REQ-25 | Must | UC-05 | – | – | – | – | spezifiziert |
 | G-02, G-07, G-16 | EP-03 | US-11 | REQ-26 | Must | UC-05 | – | – | – | – | spezifiziert |
 | G-02, G-07, G-16 | EP-03 | US-11 | REQ-27 | Must | UC-05 | – | – | – | – | spezifiziert |
-| G-02, G-07, G-16 | EP-03 | US-12 | REQ-28 | Must | UC-06 | – | – | – | – | spezifiziert |
+| G-02, G-07, G-16 | EP-03 | US-12 | REQ-28 | Must | UC-06 | – | – | `src/lib/domain/level.ts` | TC-02 | umgesetzt |
 | G-02, G-07, G-16 | EP-03 | US-12 | REQ-29 | Should | UC-06 | – | – | – | – | spezifiziert |
-| G-02, G-07, G-16 | EP-03 | US-12 | REQ-30 | Must | UC-06 | – | – | – | – | spezifiziert |
+| G-02, G-07, G-16 | EP-03 | US-12 | REQ-30 | Must | UC-06 | – | – | `src/lib/domain/level.ts` | TC-03 | umgesetzt |
 | G-02, G-07, G-16 | EP-03 | US-13 | REQ-31 | Must | UC-08 | – | – | – | – | spezifiziert |
 | G-02, G-07, G-16 | EP-03 | US-14 | REQ-32 | Should | UC-08 | – | – | – | – | spezifiziert |
 | G-03 | EP-04 | US-15 | REQ-33 | Must | UC-08 | – | – | – | – | spezifiziert |

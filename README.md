@@ -6,19 +6,47 @@ Projektarbeit im Modul **Software Engineering** (WS 2026/27, HS Flensburg) von M
 
 ## Status
 
-Das Projekt befindet sich im Aufbau (Meilenstein v0.1: Vision und Anforderungen).
+Meilenstein **v0.1**: Anforderungen, Priorisierung und lauffähiges Projektgerüst. Die Funktionen folgen ab v0.3 (siehe [Release-Plan](docs/requirements/priorisierung.md#5-release-plan)).
+
+## Technik
+
+Next.js 16 (App Router) mit TypeScript, SQLite über better-sqlite3, ESLint, Prettier und Vitest.
 
 ## Installation
 
-_Folgt mit dem ersten lauffähigen Stand (geplant: Next.js mit TypeScript und SQLite)._
+Voraussetzung: [Node.js](https://nodejs.org/) ab Version 20.9 (empfohlen 22 LTS) und Git.
+
+```bash
+git clone https://github.com/mohammed2004mf/SideQuest-Heydari.git && cd SideQuest-Heydari
+npm install
+```
 
 ## Start
 
-_Folgt._
+```bash
+npm run dev
+```
+
+Danach im Browser <http://localhost:3000> öffnen. Die SQLite-Datenbank wird beim ersten Zugriff automatisch unter `data/sidequest.db` angelegt (anderer Pfad über die Umgebungsvariable `SIDEQUEST_DB_PATH`). Ob die Datenbank erreichbar ist, zeigt <http://localhost:3000/api/health>.
+
+Produktions-Build: `npm run build` und danach `npm start`.
+
+## Entwicklung
+
+| Befehl | Zweck |
+|---|---|
+| `npm run lint` | ESLint |
+| `npm run format` | Code mit Prettier formatieren |
+| `npm run typecheck` | TypeScript prüfen |
+| `npm test` | Unit-Tests (Vitest) |
+| `npm run test:coverage` | Tests mit Abdeckungsbericht (mind. 80 % für `src/lib/domain`) |
+| `npm run check` | Alles zusammen; läuft auch in der CI bei jedem Pull Request |
+
+Regeln für den Code: [docs/design/coding-standard.md](docs/design/coding-standard.md).
 
 ## Bedienung
 
-_Folgt._
+_Folgt mit den ersten Funktionen in v0.3._
 
 ## Repository-Struktur
 
@@ -35,8 +63,8 @@ docs/
   traceability.md     Traceability-Matrix
   reflexion.md        Reflexion
   ki-nutzung.md       Offenlegung der KI-Nutzung
-src/                  Quellcode
-tests/                Automatisierte Tests
+src/                  Quellcode (Next.js-App, Fachlogik, Datenbank)
+tests/                Automatisierte Tests (Vitest)
 ```
 
 ## Arbeitsweise

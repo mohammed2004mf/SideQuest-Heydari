@@ -5,6 +5,8 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 
 ## [Unreleased]
 
+## [0.1] – 2026-11-03
+
 ### Hinzugefügt
 - Zielbaum (G-01 bis G-16) mit Zielkonflikten, 14 Epics, 32 User Stories mit Akzeptanzkriterien
 - 67 detaillierte Anforderungen nach Satzschablone mit Abhängigkeiten
@@ -12,6 +14,10 @@ Format angelehnt an [Keep a Changelog](https://keepachangelog.com/de/1.1.0/).
 - 19 nicht-funktionale Anforderungen nach ISO/IEC 25010 mit Messwerten
 - Priorisierung: Epics per 100-Dollar-Methode, alle Anforderungen per MoSCoW, Release-Plan
 - Traceability: Priorität je Anforderung, NFR-Tabelle und NFR↔REQ-Abhängigkeiten
+- Projektgerüst: Next.js 16 mit TypeScript, SQLite (better-sqlite3) mit Migrationen, Health-Check unter `/api/health`
+- Fachlogik für XP je Schwierigkeit, Level und Titel (REQ-11, REQ-28, REQ-30) mit Unit-Tests TC-01 bis TC-04
+- Coding-Standard mit ESLint, Prettier und TypeScript strict; CI-Workflow auf GitHub Actions
+- README mit Installation, Start und Entwicklungsbefehlen
 
 ### Geändert
 - Diagramme mit Mermaid statt PlantUML (direkte Anzeige auf GitHub)
