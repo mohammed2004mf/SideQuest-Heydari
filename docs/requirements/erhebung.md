@@ -8,7 +8,7 @@
 | Q-02 | Aufgabenstellung Software Engineering WS 2026/27 | Dokument | Randbedingungen, zu erstellende Artefakte |
 | Q-03 | Vergleichbare Systeme: Habitica, Duolingo, Streaks-Apps | Systemanalyse | Bewährte Mechaniken (XP, Streaks, Ranglisten) und ihre Schwächen |
 | Q-04 | Interviews mit Endnutzern | Interview | Bedürfnisse, Motivation, Probleme mit bestehenden Tools |
-| Q-05 | Tagebuchstudie mit Endnutzern | Beobachtung | Implizites Verhalten im Alltag |
+| Q-05 | ~~Tagebuchstudie mit Endnutzern~~ (nicht durchgeführt, siehe [Tagebuchstudie](#tagebuchstudie)) | Beobachtung | – |
 | Q-06 | Mohammad Heydari (Product Owner) | Stakeholder | Ziele, Prioritäten (100-Dollar-Methode) |
 
 ## Gewählte Techniken
@@ -16,7 +16,7 @@
 | Stakeholder | Technik | Begründung (explizites / implizites Wissen) |
 |---|---|---|
 | STK-01 Endnutzer | **Interview** (Einzelgespräch, ca. 20 min) | Ziele, Wünsche und Ärger über bestehende Apps sind **explizites** Wissen, das sich erfragen lässt. |
-| STK-01 Endnutzer | **Tagebuchstudie** (5 Tage, kurze Notiz am Abend) | Wann und warum Gewohnheiten abbrechen, ist **implizites** Wissen. Es lässt sich schlecht erfragen, aber über mehrere Tage beobachten. |
+| STK-01 Endnutzer | **Tagebuchstudie** (5 Tage, kurze Notiz am Abend), *geplant, nicht durchgeführt* | Wann und warum Gewohnheiten abbrechen, ist **implizites** Wissen. Es lässt sich schlecht erfragen, aber über mehrere Tage beobachten. |
 | STK-02 Product Owner | **Dokumentenanalyse** des Ideenpapiers und Priorisierung | Die Produktidee liegt schriftlich vor (explizit). |
 | STK-03 Dozent | **Dokumentenanalyse** der Aufgabenstellung, Rückfragen in den freien Arbeitsterminen | Vorgaben sind explizit dokumentiert; offene Punkte werden direkt geklärt. |
 | Vergleichssysteme | **Systemanalyse** | Bestehende Lösungen zeigen bewährte Mechaniken und typische Schwächen. |
@@ -41,7 +41,7 @@
 
 **Abschluss (3 min)**
 - Zusammenfassung der wichtigsten Punkte vorlesen und bestätigen lassen (Member Checking).
-- Dank, Frage nach offenen Punkten, Hinweis auf Teilnahme an der Tagebuchstudie.
+- Dank, Frage nach offenen Punkten.
 
 **Durchführung:** Befragte reden lassen, keine Suggestivfragen („Du willst doch sicher …?“), Antworten während des Gesprächs zusammenfassen, Notizen direkt nach dem Gespräch ausformulieren.
 
@@ -52,9 +52,15 @@ An fünf aufeinanderfolgenden Tagen notieren die Teilnehmenden abends in 2 Minut
 2. Was hat dich abgehalten oder unterstützt?
 3. Wann am Tag hättest du eine Erinnerung oder Belohnung gebraucht?
 
+**Status: nicht durchgeführt.** Der Product Owner hat am 04.11.2026 entschieden, die Tagebuchstudie nicht durchzuführen und stattdessen die Ergebnisse der beiden Interviews (P1, P2) zu verwenden.
+
+**Ersatz:** Interviewfrage 3 fragt gezielt nach abgebrochenen Gewohnheiten, Frage 7 nach Zeitpunkt und Gerät der Nutzung. P1 hat dazu ein konkretes Beispiel geschildert (P1-3: Lernroutine bei mehreren gleichzeitigen Abgaben aufgegeben). Daraus sind Streak-Schutz (US-19) und die Anpassung der Schwierigkeit (US-25) entstanden.
+
+**Einschränkung:** Interviews liefern Erinnerungen und Selbsteinschätzungen, keine Beobachtung über mehrere Tage. Implizites Verhalten im Alltag (z. B. zu welcher Tageszeit Erinnerungen helfen) ist daher weniger gut abgesichert. Betroffen sind vor allem die Annahmen zu Benachrichtigungen (REQ-63, 20:00 Uhr) und zur Nutzung im Tagesverlauf (Kontextfacette Nutzung). Diese werden im Usability-Test (NFR-06) und bei den Akzeptanztests erneut geprüft.
+
 ## Ergebnisse
 
-> **Status: 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) steht noch aus.
+> **Status: 2 Interviews ausgewertet.** Interviews werden von Mohammad Heydari geführt und notiert. KI-Rollenspiele ersetzen echte Stakeholder nicht und werden nicht als Ergebnis verwendet. Die Tagebuchstudie (Q-05) wurde nicht durchgeführt (siehe [Tagebuchstudie](#tagebuchstudie)).
 
 ### P1 – Interview vom 03.11.2026
 

@@ -29,6 +29,6 @@ Nach Kapitel 2 werden die vier Kontextfacetten mit Beispielen und Anforderungsqu
 | Facette | Beispiele für SideQuest | Anforderungsquellen |
 |---|---|---|
 | **Objekt** | Quest mit Schwierigkeit und XP; Charakter mit Level und Skill-Werten; Streak; Achievement mit Seltenheit; Coins | Ideenpapier (Q-01), Glossar, vergleichbare Systeme (Habitica, Duolingo) |
-| **Nutzung** | morgens die Tagesquests ansehen; unterwegs auf dem Smartphone eine Quest abhaken; abends Fortschritt und Streak prüfen; am Wochenende Gruppen-Challenge mit Freunden | Interviews und Tagebuchstudie mit Endnutzern (siehe [Erhebung](erhebung.md)) |
+| **Nutzung** | morgens die Tagesquests ansehen; unterwegs auf dem Smartphone eine Quest abhaken; abends Fortschritt und Streak prüfen; am Wochenende Gruppen-Challenge mit Freunden | Interviews mit Endnutzern (siehe [Erhebung](erhebung.md)) |
 | **IT-System** | Webbrowser auf Smartphone und Desktop; Next.js-Server; SQLite-Datenbank; optionale KI-API; Benachrichtigungen im Browser | Technologie-Dokumentation, Randbedingungen (CON-xx) |
 | **Entwicklung** | Einzelentwickler; ca. 7 Wochen; GitHub mit Issues, Branches, Pull Requests und Releases; Kursnotationen; KI-Unterstützung mit Offenlegungspflicht | Aufgabenstellung (Q-02), Dozent (STK-03) |
